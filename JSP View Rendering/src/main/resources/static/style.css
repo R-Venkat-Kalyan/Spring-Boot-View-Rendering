@@ -1,0 +1,46 @@
+
+/* attendance result */
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(to right, #00c6ff, #0072ff);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.result-container {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	padding: 20px 40px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	max-width: 400px;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.btn {
+	padding: 10px 20px;
+	font-size: 1em;
+	color: #0072ff;
+	background: white;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background 0.3s ease;
+}
+
+.btn:hover {
+	background: #f2f2f2;
+}
