@@ -27,14 +27,14 @@ This repository provides a guide on rendering **HTML** and **JSP** files in a Sp
 2. **Update `application.properties`**  
    Add the following properties:
    ```properties
-   spring.mvc.view.prefix=/WEB-INF/views/
+   spring.mvc.view.prefix=/
    spring.mvc.view.suffix=.jsp
    ```
 
 3. **File Placement**  
    Place all your JSP files under:
    ```
-   src/main/webapp/WEB-INF/views/
+   src/main/webapp/
    ```
 
 4. **Enable JSP Rendering**  
